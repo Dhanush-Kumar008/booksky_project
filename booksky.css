@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#headdiv{
+    background-color: #FD6569;
+    padding: 10px;
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+      
+}
+
+#container{
+    margin-top: 3%;
+    margin-left: 20px;
+    padding: 20px;
+  
+}
+
+#bookcontainer{
+    background-color: black;
+    width: 27%;
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    
+
+    
+    
+}
+
+#bookcontainer h2{
+    color: #FD6569;
+    margin-bottom: 15px;
+    
+}
+
+#bookcontainer button{
+    margin-top: 20px;
+    width: 70px;
+    height: 30px;
+    background-color: #FD6569;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+
+#bookcontainer h3{
+    color: white;
+    margin-bottom: 15px;
+}
+
+#bookcontainer p{
+    color: white;
+}
+
+#popdiv{
+    background-color: #FD6569;
+    position:absolute;
+    z-index: 3;
+    margin-left: 35%;
+    padding: 30px;
+    width: 27%;
+    border-radius: 10px;
+    bottom: 38%;
+    display: none;
+    
+    
+ 
+    
+    
+}
+
+#overlay{
+    background-color: black;
+    opacity: 0.8;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+   
+    
+}
+
+
+
+#popdiv #bookauthor{
+    width: 100%;
+    background-color: transparent;
+    margin: 10px;
+    border: none;
+    border-bottom: solid black 2px;
+    color: black;
+} 
+
+
+#popdiv #booktitle{
+    width: 100%;
+    background-color:transparent;
+    margin: 10px;
+    border: none;
+    border-bottom: solid black 2px;
+    color: black;
+} 
+
+
+#popdiv #textarea_short{
+    width: 100%;
+    background-color: transparent;
+    margin: 10px;
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    padding: 10px;
+    width: 94.5%;
+
+ 
+} 
+
+#popdiv input:focus{
+    outline: none;
+}
+
+#popdiv input::placeholder{
+    color: black;
+}
+
+#popdiv textarea:focus{
+    outline: none;
+}
+
+#popdiv textarea::placeholder{
+    color: black;
+}
+
+#popdiv h2{
+    margin-bottom: 20px;
+    
+}
+
+#popdiv button{
+    background-color:black;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-right: 5px;
+}
+
+#plusbutton{
+    margin-left: 94%;
+    margin-top: 17%;
+    background-color: #FD6569;
+    color: black;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    font-size: xx-large;
+
+  
+}
+
